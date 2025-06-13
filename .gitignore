@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+env/
+venv/
+.venv/
+
+# Airflow
+logs/
+airflow.db
+unittest.cfg
+.venv/
+.venv2/
+.venv3/
+.egg-info/
+
+# Airflow variables/connections if exported
+variables.json
+connections.json
+
+# SQLite (if used in dev)
+*.sqlite
+
+# Docker
+*.pid
+*.log
+.env
+.env.*
+docker-compose.override.yml
+
+# VSCode & IDEs
+.vscode/
+.idea/
+*.iml
+
+# macOS & Linux
+.DS_Store
+Thumbs.db
